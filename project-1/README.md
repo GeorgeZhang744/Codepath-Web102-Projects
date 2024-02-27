@@ -1,4 +1,4 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - UMass Amherst Dining Community Board
 
 Submitted by: **George Zhang**
 
@@ -20,12 +20,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-[Video Walkthrough](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/blob/main/project-1/src/project1_walkthrough.gif)
+
+[Video Walkthrough.webm](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/blob/main/project-1/src/project1_walkthrough.gif)
 
 ## Notes
 
