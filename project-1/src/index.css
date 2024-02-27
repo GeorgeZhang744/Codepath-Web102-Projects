@@ -1,0 +1,56 @@
+.Card {
+  width: calc(33.33% - 20px); /* Three cards per row with some spacing */
+  background-color: white;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.Card:hover {
+  transform: translateY(-5px);
+}
+
+.Card img {
+  width: 100%;
+  height: auto;
+}
+
+.Dining-Info {
+  padding-bottom: 20px;
+}
+
+.Dining-Info h3 {
+  margin-top: 0;
+}
+
+.Dining-Info p {
+  color: #666;
+}
+
+.Dining-Info a button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  background-color: lightcoral;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Dining-Info button:hover {
+  background-color: #ff0000;
+}
+
+.Dining-Info a {
+  text-decoration: none;
+  color: #fff;
+}
