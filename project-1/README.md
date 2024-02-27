@@ -25,14 +25,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-<img src='.src/project1_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+[Video Walkthrough](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/blob/main/project-1/src/project1_walkthrough.gif)
 
 ## Notes
 
