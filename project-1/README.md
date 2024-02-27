@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[Video Walkthrough.webm](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/blob/main/project-1/src/project1_walkthrough.gif)
+[Video Walkthrough](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/blob/main/project-1/src/project1_walkthrough.gif)
 
 ## Notes
 
