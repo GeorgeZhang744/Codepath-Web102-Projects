@@ -1,8 +1,8 @@
-# Web Development Project 2 - *Pokemon Type Test Flashcard*
+# Web Development Project 2 - Pokemon Type Test Flashcard
 
 Submitted by: **George Zhang**
 
-This web app: **insert description**
+This web app: **A flashcard App that tests user's familiarity with Pokemon typing**
 
 Time spent: **7** hours spent in total
 
@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
@@ -34,7 +34,7 @@ Here's a walkthrough of implemented required features:
 
 ## Notes
 
-I had a hard time adding image to the the center of the card while maintaining the card-flipping functionality work properly
+Challenge encountered: I had a hard time adding image to the the center of the card while maintaining the card-flipping functionality work properly
 
 ## License
 
