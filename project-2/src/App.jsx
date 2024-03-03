@@ -12,22 +12,11 @@ function App() {
     setIsFront(!isFront);
   };
 
-  const goPreviousCard = () => {
-    if (cardId > 0) {
-      if (!isFront) {
-        flipCard();
-      }
-      setCardId(cardId - 1);
+  const nextCard = () => {
+    if (!isFront) {
+      flipCard();
     }
-  };
-
-  const goNextCard = () => {
-    if (cardId < ALL_CARDS.length - 1) {
-      if (!isFront) {
-        flipCard();
-      }
-      setCardId(cardId + 1);
-    }
+    setCardId(Math.floor(Math.random() * ALL_CARDS.length));
   };
 
   return (
@@ -37,7 +26,7 @@ function App() {
       <h3>Number of Cards: {ALL_CARDS.length}</h3>
       <CardContainer
         cardProps={{ isFront, cardInfo: ALL_CARDS[cardId], flipCard }}
-        cardNavProps={{ cardId, maxCard: ALL_CARDS.length, navMethods: { goPreviousCard, goNextCard } }}
+        cardNavProps={{ cardId, maxCard: ALL_CARDS.length, nextCard }}
       ></CardContainer>
     </div>
   );

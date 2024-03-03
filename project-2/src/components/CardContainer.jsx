@@ -6,12 +6,12 @@ import CardNav from "./CardNav";
 
 const CardContainer = ({ cardProps, cardNavProps }) => {
   const { isFront, cardInfo, flipCard } = cardProps;
-  const { cardId, maxCard, navMethods } = cardNavProps;
+  const { cardId, maxCard, nextCard } = cardNavProps;
 
   return (
     <div className="Card-Container">
       <Card isFront={isFront} cardInfo={cardInfo} flipCard={flipCard}></Card>
-      <CardNav cardId={cardId} maxCard={maxCard} navMethods={navMethods}></CardNav>
+      <CardNav cardId={cardId} maxCard={maxCard} nextCard={nextCard}></CardNav>
     </div>
   );
 };
