@@ -1,0 +1,178 @@
+/* Overall styling */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Search bar styling */
+.Search-Bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#author-search-bar {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button.search-author-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.search-author-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Stats Card */
+.stats-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.stats-card h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.stats-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Search result styling */
+.Search-Result {
+  width: 70%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Book statistics styling */
+.Book-Statistics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Book-Statistics > div {
+  flex: 1;
+  text-align: center;
+}
+
+.Filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.year-filter,
+.rating-filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.year-filter-inputs,
+.rating-filter-inputs {
+  margin-left: 20px;
+}
+
+.rating-filter-inputs {
+  display: flex;
+  align-items: center;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-row label {
+  margin-right: 10px;
+}
+
+.apply-filter-btn {
+  align-self: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-filter-btn:hover {
+  background-color: #0056b3;
+}
+/* Books container styling */
+.Books-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+/* Book card styling */
+.book-card {
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  margin-right: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-card:nth-child(4n) {
+  margin-right: 0; /* Remove right margin on the last card of each row */
+}
+
+/* Child elements inside book card styling */
+.book-name,
+.book-publish-year,
+.book-rating,
+.book-cover-not-found {
+  margin: 10px;
+}
+
+.book-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.loading-msg {
+  margin: auto; /* Center the element horizontally and vertically */
+  margin-bottom: 20px;
+  height: 20px; /* Set the desired height */
+  font-size: 20px; /* Set the desired font size */
+  color: #555; /* Set the text color */
+}
