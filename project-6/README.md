@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Video Walkthrough](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/blob/main/project-5/src/project6_walkthrough.gif)
+[Video Walkthrough](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/blob/main/project-6/src/project6_walkthrough.gif)
 
 
 
