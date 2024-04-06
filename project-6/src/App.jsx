@@ -198,34 +198,6 @@ function App() {
         </Route>
       </Routes>
     </div>
-    // <div className="App">
-    //   <h2>Search Books by Author!</h2>
-    //   <SearchBar author={author} authorChangeHandler={authorChangeHandler}></SearchBar>
-    //   <Filters
-    //     filtersValues={{ yearFilterCheck, yearFilterLowerBound, yearFilterUpperBound, ratingFilterCheck, ratingFilterValue }}
-    //     filtersHandlers={{
-    //       yearFilterCheckChangeHandler,
-    //       yearFilterLowerBoundChangeHandler,
-    //       yearFilterUpperBoundChangeHandler,
-    //       ratingFilterCheckChangeHandler,
-    //       ratingFilterValueChangeHandler,
-    //       applyFilterHandler,
-    //     }}
-    //   ></Filters>
-    //   <SearchResult
-    //     bsValues={{ booksCount, yearRange, avgRating }}
-    //     // filtersValues={{ yearFilterCheck, yearFilterLowerBound, yearFilterUpperBound, ratingFilterCheck, ratingFilterValue }}
-    //     // filtersHandlers={{
-    //     //   yearFilterCheckChangeHandler,
-    //     //   yearFilterLowerBoundChangeHandler,
-    //     //   yearFilterUpperBoundChangeHandler,
-    //     //   ratingFilterCheckChangeHandler,
-    //     //   ratingFilterValueChangeHandler,
-    //     //   applyFilterHandler,
-    //     // }}
-    //     bcValues={{ isLoading, books, filters }}
-    //   ></SearchResult>
-    // </div>
   );
 }
 
