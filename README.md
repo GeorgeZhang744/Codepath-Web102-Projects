@@ -34,4 +34,4 @@ Throughout the 10 units of the course, you will learn and practice the skills yo
 8. [Final Project: Online Forum](https://github.com/GeorgeZhang744/Codepath-Web102-Final-Project-Deployment)
 
 ## Certificate:
-![alt text](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/certificate.jpg)
+![alt text](https://github.com/GeorgeZhang744/Codepath-Web102-Projects/blob/main/certificate.jpg)
